@@ -5,7 +5,7 @@
 	<title>API Test</title>
 </head>
 <body>
-    <h1>API Test</h1>
+    <h1>성호의 집주소 for Kakao</h1>
 	<div id="map" style="width:500px;height:400px;"></div>
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9bce9d84e1d894839ea5dda8324e0347"></script>
 	<script>
@@ -17,5 +17,7 @@
 
 		var map = new kakao.maps.Map(container, options);
 	</script>
+	<br>
+	<a href="{% url 'index' %}">돌아가기</a>
 </body>
 </html>

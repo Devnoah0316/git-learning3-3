@@ -20,4 +20,6 @@ import app.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',app.views.index, name='index'),
+    path('cshapi/',app.views.cshapi, name='cshapi'),
+    path('shapi/',app.views.shapi, name='shapi'),
 ]
